@@ -27,3 +27,5 @@ Android for test: SAMSUMG galaxy tab a 8.0 with s pen
 
 The eye tracking code is from https://github.com/fyordan/AndroidGaze. And the visualization code is from https://github.com/TobiasRoeddiger/GazePointHeatMap/blob/master/gazeheatplot.py .
 
+<img width="541" alt="KakaoTalk_20190603_005940308" src="https://user-images.githubusercontent.com/20503572/60395231-89f74380-9b6b-11e9-9055-dd0f8b789fd3.png">
+
