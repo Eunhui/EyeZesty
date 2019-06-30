@@ -14,9 +14,10 @@ sentence: what fruit did snow-white princess eat?
 
 
 Environment:
-Windows 10.
 
-server: Ubuntu 18.04 /Nginx ( but I don't upload server-php code )
+All of this work was done in Windows 10.
+
+server: Ubuntu 18.04 /Nginx ( but I don't upload server-php code if you want, contact me)
 
 Android studio: 3.4.1 for Windows 64-bit
 
