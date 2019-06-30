@@ -15,6 +15,7 @@ sentence: what fruit did snow-white princess eat?
 
 Environment:
 Windows 10.
+
 server: Ubuntu 18.04 /Nginx ( but I don't upload server-php code )
 
 Android studio: 3.4.1 for Windows 64-bit
