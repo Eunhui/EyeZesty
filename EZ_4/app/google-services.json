@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1046823142260",
+    "firebase_url": "https://storage-b411f.firebaseio.com",
+    "project_id": "storage-b411f",
+    "storage_bucket": "storage-b411f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1046823142260:android:3658cb542d804ed1",
+        "android_client_info": {
+          "package_name": "com.example.ez_4"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1046823142260-niq3143dgcpbiohfaru9m81q1liscp4e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDjCY8WAQpXh1H75h206aISBTGqqknT5WI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1046823142260-niq3143dgcpbiohfaru9m81q1liscp4e.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

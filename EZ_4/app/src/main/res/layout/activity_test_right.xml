@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TestTopActivity">
+
+    <ImageView
+        android:id="@+id/rightImage"
+        android:layout_width="74dp"
+        android:layout_height="83dp"
+        android:layout_gravity="right|center_vertical"
+        android:src="@android:drawable/btn_star_big_on"
+        android:visibility="invisible" />
+
+    <ImageView
+        android:id="@+id/leftImage"
+        android:layout_width="77dp"
+        android:layout_height="83dp"
+        android:layout_gravity="left|center_vertical"
+        android:src="@android:drawable/btn_star_big_on"
+        android:visibility="invisible" />
+
+    <ImageView
+        android:id="@+id/bottomImage"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_gravity="bottom|center"
+        android:src="@android:drawable/btn_star_big_on"
+        android:visibility="invisible" />
+
+    <ImageView
+        android:id="@+id/topImage"
+        android:layout_width="83dp"
+        android:layout_height="84dp"
+        android:layout_gravity="center|top"
+        app:srcCompat="@android:drawable/btn_star_big_on"
+        tools:layout_editor_absoluteX="324dp"
+        tools:layout_editor_absoluteY="323dp"
+        tools:layout_marginTop="0dp" />
+</FrameLayout>

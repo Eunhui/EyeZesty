@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".WActivity">
+
+    <com.example.ez_4.CameraSourcePreview
+        android:id="@+id/preview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.example.ez_4.GraphicOverlay
+            android:id="@+id/faceOverlay"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+    </com.example.ez_4.CameraSourcePreview>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#F9CDFE"
+        android:orientation="vertical"
+        android:id="@+id/w_root">
+
+        <TextView
+            android:id="@+id/txtWord"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="30dp"
+            android:background="@drawable/bg_round_yellow"
+            android:fontFamily="@font/bmjua"
+            android:gravity="center"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:text="여기보세요 ༼⚆ɷ⚆༽"
+            android:textColor="@color/colorPrimary"
+            android:textSize="36sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="40dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imgLeft"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginRight="30dp"
+                android:layout_weight="1"
+                android:src="@drawable/pororo1" />
+
+            <ImageView
+                android:id="@+id/imgRight"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:src="@drawable/fox" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+</FrameLayout>

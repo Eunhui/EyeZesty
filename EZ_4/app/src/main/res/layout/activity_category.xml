@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#3BF9CDFE"
+        android:orientation="vertical"
+        tools:context=".CategoryActivity">
+
+        <LinearLayout
+            android:id="@+id/layAge"
+            android:layout_width="304dp"
+            android:layout_height="72dp"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginRight="100dp"
+            android:layout_marginBottom="30dp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="190dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/bg_rec_trans_alge"
+                android:orientation="horizontal"
+                android:paddingLeft="20dp">
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="7dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="@font/bmdohyun"
+                    android:paddingBottom="0dp"
+                    android:text="나이"
+                    android:textColor="@android:color/black"
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/edtxtAge"
+                    android:layout_width="131dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="50dp"
+                    android:layout_weight="1"
+                    android:hint="ex) 10"
+                    android:inputType="number"
+                    android:textSize="18sp" />
+
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:paddingLeft="20dp"
+                app:srcCompat="@drawable/iconcocomong" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="80dp"
+            android:layout_marginRight="80dp"
+            android:layout_marginBottom="30dp"
+            android:background="@drawable/bg_round_red"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/txtFruit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="1"
+                android:fontFamily="@font/bmjua"
+                android:gravity="center"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:text="과일"
+                android:textColor="@color/colorPrimary"
+                android:textSize="27sp" />
+
+            <ImageView
+                android:id="@+id/imgFruitResult"
+                android:layout_width="43dp"
+                android:layout_height="match_parent"
+                app:srcCompat="@drawable/dino2" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="15dp"
+            android:background="@color/colorPrimaryDark" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="80dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="80dp"
+            android:layout_marginBottom="30dp"
+            android:background="@drawable/bg_round_blue"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/txtAnimal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="@font/bmjua"
+                android:gravity="center"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:text="동물"
+                android:textColor="@color/colorPrimary"
+                android:textSize="27sp" />
+
+            <ImageView
+                android:id="@+id/imgAnimalResult"
+                android:layout_width="40dp"
+                android:layout_height="match_parent"
+                app:srcCompat="@drawable/dino2" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="15dp"
+            android:background="@color/colorPrimaryDark" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="80dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="80dp"
+            android:layout_marginBottom="30dp"
+            android:background="@drawable/bg_round_yellow"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/txtFood"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="@font/bmjua"
+                android:gravity="center"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:text="채소"
+                android:textColor="@color/colorPrimary"
+                android:textSize="27sp" />
+
+            <ImageView
+                android:id="@+id/imgFoodResult"
+                android:layout_width="43dp"
+                android:layout_height="match_parent"
+                app:srcCompat="@drawable/dino2" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="15dp"
+            android:background="@color/colorPrimaryDark" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="80dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="80dp"
+            android:layout_marginBottom="30dp"
+            android:background="@drawable/bg_round_white"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/txtObjOne"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="@font/bmjua"
+                android:gravity="center"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:text="물건"
+                android:textColor="@color/colorPrimary"
+                android:textSize="27sp" />
+
+            <ImageView
+                android:id="@+id/imgObjResOne"
+                android:layout_width="39dp"
+                android:layout_height="match_parent"
+                app:srcCompat="@drawable/dino2" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="15dp"
+            android:background="@color/colorPrimaryDark" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="80dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="80dp"
+            android:layout_marginBottom="30dp"
+            android:background="@drawable/bg_round_green"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/txtAniTwo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="@font/bmjua"
+                android:gravity="center"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:text="동물2"
+                android:textColor="@color/colorPrimary"
+                android:textSize="27sp" />
+
+            <ImageView
+                android:id="@+id/imgObjResTwo"
+                android:layout_width="43dp"
+                android:layout_height="match_parent"
+                app:srcCompat="@drawable/dino2" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="15dp"
+            android:background="@color/colorPrimaryDark" />
+    </LinearLayout>
+</ScrollView>

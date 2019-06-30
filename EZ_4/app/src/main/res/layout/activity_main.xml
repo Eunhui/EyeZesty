@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorAccent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="114dp"
+        android:layout_height="171dp"
+        android:layout_gravity="bottom|right"
+        android:paddingRight="10dp"
+        app:srcCompat="@drawable/iconpinkpong" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="109dp"
+        android:layout_height="184dp"
+        android:layout_gravity="bottom"
+        android:cropToPadding="false"
+        android:paddingLeft="10dp"
+        app:srcCompat="@drawable/iconpinkshark" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="302dp"
+        app:srcCompat="@drawable/iconfriend" />
+
+    <TextView
+        android:id="@+id/txtWord"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal|top"
+        android:layout_marginTop="350dp"
+        android:background="@drawable/round_button_yellow"
+        android:fontFamily="@font/bmjua"
+        android:paddingLeft="50dp"
+        android:paddingTop="10dp"
+        android:paddingRight="50dp"
+        android:paddingBottom="10dp"
+        android:text="단어"
+        android:textColor="#FBF8F8"
+        android:textSize="60sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.383"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.348" />
+
+    <TextView
+        android:id="@+id/txtSentence"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_marginBottom="150dp"
+        android:background="@drawable/round_button_green"
+        android:fontFamily="@font/bmjua"
+        android:gravity="center"
+        android:paddingLeft="50dp"
+        android:paddingTop="10dp"
+        android:paddingRight="50dp"
+        android:paddingBottom="10dp"
+        android:text="문장"
+        android:textColor="@android:color/background_light"
+        android:textSize="60sp" />
+
+</FrameLayout>
